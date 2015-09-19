@@ -15,7 +15,9 @@
 		<script src="bootstrap-3.3.5-dist/js/jquery.easypiechart.min.js"></script>
 		<script src="bootstrap-3.3.5-dist/js/jquery-2.1.4.js"></script>
 		<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
-		 <script src="skill.js"></script>
+		 <script src="bootstrap-3.3.5-dist/js/skill.js"></script>
+     <script src="bootstrap-3.3.5-dist/js/tooltip.js"></script>
+     <script src="bootstrap-3.3.5-dist/js/scroll smooth.js"></script>
 		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
   		<div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -103,16 +105,27 @@
         </h3>
       </div>
       <div class="row text-center">
-      	<div class="col-md-3 skill-col">
-      			 <span class="chart" data-percent="80">
+      	
+
+        <div class="col-md-3 skill-col">
+          <span class="chart" data-percent="80">
               <span class="percent"></span>
           </span>
           <h4>HTML</h4>
-      	</div>
+        </div>
+
+        <div class="col-md-3 skill-col">
+          <span class="chart" data-percent="60">
+            <span class="percent"></span>
+          </span>
+          <h4>CSS </h4>
+        </div>
+
       </div>
       <div class="arrow text-center">
             <a href="#contact"><i class="fa fa-arrow-down"></i></a>
 
+    </div>
 </div>
 <!-- end of pie -->
 
@@ -131,7 +144,7 @@
      	 <div class="contact-details">
         	<div class="contact-icon">
           <i class="fa fa-mobile fa-1x"> </i>
-          +91-XXXXXXXXXX
+          +91-XXXX-XXXX-XX
         	</div>
      	 </div>
 
@@ -151,15 +164,17 @@
       </div>
       </div>
 <div class="col-md-6">
-      <div class="pic">
+      <div class="img-responsive">
         <img src="images/brian.jpg" alt="B C" class="img-circle">
       </div>
   </div>
-      
+   </div>
+      <!-- <div class="col-md-4-offset-1"> -->
       <div class="arrow text-center">
-        <a href="#intro"><i class="fa fa-arrow-up"></i></a>
+        <a href="#intro"><i class="fa fa-arrow-up" data-toggle="tooltip" data-placement="top" title="Move to top"></i></a>
       </div>
-      </div>
+      <!-- </div> -->
+     
     </div>
     <!-- End of contact -->
 
