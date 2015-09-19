@@ -1,3 +1,7 @@
+body{
+	background-color: black;
+}
+
 .navbar-brand{
 
 	font-family: arial;
@@ -78,9 +82,11 @@
 	font-size: 20px;
 }
 
-.pic{
+.img-responsive{
 	float: right;
-	margin: 20px 150px;
+	margin: 50px ;
+	margin-top:40px ;
+	position: center;
 	
 }
 img{
@@ -92,7 +98,7 @@ img{
 
 
 
-* PIE CHART STYLES */
+/* PIE CHART STYLES */
 .chart {
     position: relative;
     display: inline-block;
@@ -123,3 +129,6 @@ img{
     font-size: 1em;
     color: white;
 }
+
+
+/**/
