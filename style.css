@@ -1,0 +1,125 @@
+.navbar-brand{
+
+	font-family: arial;
+}
+
+.intro-bg{
+	background: url("images/door.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 667px;
+}
+.intro-txt{
+
+	margin-top: 370px;
+	font-family: Candara;
+
+
+}
+.intro-txt h1{
+	color: #000033;
+	font-weight     : bold;
+	
+}
+.intro-txt h2{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.arrow{
+	font-size: 50px;
+	margin-top: 50px;
+	}
+
+.arrow a{
+	color: #f0ff08;
+}
+
+#about{
+	background-color: black;
+	
+	padding: 50px 0px 50px 0px;
+}
+.titles{
+	color: #fff;
+	}
+
+.titles span{
+	background: #8C868A;
+	height: 1px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sub-section{
+	color: white;
+	margin-top: 55px;
+}
+
+.sub-section p{
+	font-style: italic;
+}
+
+#contact{
+	background-color: black;
+	padding: 50px 0px 50px 0px;
+	color: white;
+}
+
+.contact-details{
+	margin: 50px 0px 0px 150px;
+	font-family: Candara;
+
+}
+
+.contact-icon{
+	font-size: 20px;
+}
+
+.pic{
+	float: right;
+	margin: 20px 150px;
+	
+}
+img{
+	width: 290px;
+	height: 290px;
+
+
+}
+
+
+
+* PIE CHART STYLES */
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 200px; 
+    height: 200px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percent {
+    display: inline-block;
+    line-height: 200px; 
+    z-index: 2;
+    font-size: 2em;
+    color: white;
+}
+
+.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: 1em;
+    color: white;
+}
