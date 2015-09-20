@@ -89,7 +89,7 @@ body{
 }
 
 .contact-details{
-	margin: 50px 0px 80px 150px;
+	margin: 50px 0px 0px 125px;
 	font-family: Candara;
 	font-size: 25px;
 
@@ -109,6 +109,7 @@ body{
 img{
 	width: 290px;
 	height: 290px;
+
 
 
 }
