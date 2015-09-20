@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	
 }
 
 .navbar-brand{
@@ -107,6 +107,7 @@ img{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    background: red;
 }
 
 .chart canvas {
@@ -129,6 +130,3 @@ img{
     font-size: 1em;
     color: white;
 }
-
-
-/**/
