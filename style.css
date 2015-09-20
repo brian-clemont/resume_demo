@@ -1,10 +1,7 @@
 body{
-	
+	background-color: black;
 }
 
-.navbar{
-	
-}
 .navbar-brand{
 
 	font-family: arial;
@@ -110,7 +107,6 @@ img{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    background: red;
 }
 
 .chart canvas {
@@ -133,3 +129,6 @@ img{
     font-size: 1em;
     color: white;
 }
+
+
+/**/
