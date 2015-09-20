@@ -12,14 +12,6 @@
 
 </head>
 <body>
-<!--ADD THIS SECTION IN THE END
-		<script src="bootstrap-3.3.5-dist/js/jquery.easypiechart.min.js"></script>
-		<script src="bootstrap-3.3.5-dist/js/jquery-2.1.4.js"></script>
-		<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
-		 <script src="bootstrap-3.3.5-dist/js/skill.js"></script>
-     <script src="bootstrap-3.3.5-dist/js/tooltip.js"></script>
-     <script src="bootstrap-3.3.5-dist/js/scroll smooth.js"></script>
--->
 
 		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
   		<div class="container-fluid">
@@ -36,9 +28,9 @@
     </div>
  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">About</a></li>
-        <li><a href="#know">Knowledge</a></li>
-        <li><a href="#contact">Contact</a></li> 
+        <li><a href="#about"  class="smoothScroll">About</a></li>
+        <li><a href="#knowledge" class="smoothScroll">Knowledge</a></li>
+        <li><a href="#contact" class="smoothScroll">Contact</a></li> 
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -56,7 +48,7 @@
           <h1>Brian Coutinho</h1>
           <h2 class="text-uppercase">Student | Web programmer</h2>
           <div class="arrow">
-            <a href="#about"><i class="fa fa-arrow-down"></i></a>
+            <a href="#about" class="smoothScroll"><i class="fa fa-arrow-down" data-toggle="tooltip" data-placement="down" title="Move Down"></i></a>
           </div>
         </div>
         </div>
@@ -73,7 +65,7 @@
       </div>
       <div class="sub-section text-center">
         <h4>Current</h4>
-        <h4>BE-Computer Engineering</h4>
+        <h4>TE-Computer Engineering</h4>
         <p>St. Francis Institute of Technology, Mumbai.</br>
         </p>
       </div>
@@ -93,7 +85,7 @@
       </div>
 
       <div class="arrow text-center">
-            <a href="#knowledge"><i class="fa fa-arrow-down"></i></a>
+            <a href="#knowledge" class="smoothScroll"><i class="fa fa-arrow-down" data-toggle="tooltip" data-placement="left" title="Move Down"></i></a>
           
 
 </div>
@@ -104,29 +96,47 @@
 <div class="container-fluid skills-bg" id="knowledge">
 		<div class="titles text-center">
         <h3>
-          Technical knowledge
+          <span></span>
+          TECHNICAL KNOWLEDGE
+          <span> </span>
         </h3>
       </div>
       <div class="row text-center">
       	
 
         <div class="col-md-3 skill-col">
-          <span class="chart" data-percent="80">
+          <span class="chart" data-percent="75">
               <span class="percent"></span>
           </span>
-          <h4>HTML</h4>
+          <h4 id="knh4">HTML</h4>
         </div>
 
         <div class="col-md-3 skill-col">
           <span class="chart" data-percent="60">
             <span class="percent"></span>
           </span>
-          <h4>CSS </h4>
+          <h4 id="knh4">CSS</h4>
         </div>
+
+        <div class="col-md-3 skill-col">
+          <span class="chart" data-percent="80">
+            <span class="percent"></span>
+          </span>
+          <h4 id="knh4">C</h4>
+        </div>
+
+        <div class="col-md-3 skill-col">
+          <span class="chart" data-percent="55">
+            <span class="percent"></span>
+          </span>
+          <h4 id="knh4">JAVA</h4>
+        </div>
+        
+
 
       </div>
       <div class="arrow text-center">
-            <a href="#contact"><i class="fa fa-arrow-down"></i></a>
+            <a href="#contact" class="smoothScroll"><i class="fa fa-arrow-down" data-toggle="tooltip" data-placement="right" title="Move Down"></i></a>
 
     </div>
 </div>
@@ -174,22 +184,46 @@
    </div>
       <!-- <div class="col-md-4-offset-1"> -->
       <div class="arrow text-center">
-        <a href="#intro"><i class="fa fa-arrow-up" data-toggle="tooltip" data-placement="top" title="Move to top"></i></a>
+        <a href="#intro" class="smoothScroll"><i class="fa fa-arrow-up" data-toggle="tooltip" data-placement="top" title="Move to top"></i></a>
       </div>
       <!-- </div> -->
      
     </div>
     <!-- End of contact -->
 
+
+  <footer>
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> Brian Coutinho </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills social">
+                    <ul class="social" style="none">
+                        <li> <a href="https://www.facebook.com/brian.clemont"> <i class=" fa fa-facebook">   </i> </a> </li>
+                       
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        
+                        <li> <a href="https://github.com/brian-clemont"> <i class="fa fa-github">   </i> </a> </li>
+                    </ul>
+                </ul> 
+            </div>
+        </div>
+    </div>
+    <!--/.footer-bottom--> 
+</footer>
+
 <!--You did not write this IMPORTANT SECTION--> 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="bootstrap-3.3.4-dist/js/jquery-2.1.4.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/jquery-2.1.4.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
     <!-- REQUIRED SKILL CHART SCRIPTS -->
-    <script src="bootstrap-3.3.4-dist/js/jquery.easypiechart.min.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/jquery.easypiechart.min.js"></script>
     <!-- CUSTOM SCRIPTS -->
-    <script src="skill.js"></script>
+     <script src="bootstrap-3.3.5-dist/js/skill.js"></script>
+     <script src="bootstrap-3.3.5-dist/js/tooltip.js"></script>
+     <script src="bootstrap-3.3.5-dist/js/smoothscroll.js"></script>
 <!--Do not forget this part. Its as imp as the head section. Also u dint add the file "skill.js"-->
 
 </body>
