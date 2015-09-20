@@ -89,13 +89,14 @@ body{
 }
 
 .contact-details{
-	margin: 50px 0px 0px 150px;
+	margin: 50px 0px 80px 150px;
 	font-family: Candara;
+	font-size: 25px;
 
 }
 
 .contact-icon{
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .img-responsive{
