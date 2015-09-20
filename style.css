@@ -57,6 +57,20 @@ body{
 	vertical-align: middle;
 }
 
+#knowledge{
+
+	background: url("images/keyb.jpeg");
+	background-size: cover;
+	background-position: center;
+	/*height: 667px;*/
+}
+
+#knowledge h3{
+	color: black;
+	padding-top: 50px;
+	font-weight: 500;
+
+}
 .sub-section{
 	color: white;
 	margin-top: 55px;
@@ -65,6 +79,8 @@ body{
 .sub-section p{
 	font-style: italic;
 }
+
+
 
 #contact{
 	background-color: black;
@@ -107,12 +123,17 @@ img{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    color: black;
+
 }
 
 .chart canvas {
     position: absolute;
     top: 0;
     left: 0;
+    color: black;
+
+
 }
 
 .percent {
@@ -120,15 +141,74 @@ img{
     line-height: 200px; 
     z-index: 2;
     font-size: 2em;
-    color: white;
+    color: black;
 }
 
 .percent:after {
     content: '%';
     margin-left: 0.1em;
     font-size: 1em;
-    color: white;
+    color: black;
+}
+#knh4{
+	
+	color: black;
+	
+	font-weight: bold;
 }
 
 
-/**/
+/*Footer*/
+.social li {
+
+	list-style: none;
+	background: none repeat scroll #2c3e50 ;
+	border: 2px solid #B5B5B5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 40px;
+	margin: 0 8px 0 0;
+	padding: px;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+
+.social li:hover {
+
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #EDEFF1;
+}
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background:#03071F ;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 10px 7px;
+	color: #EDEFF1 !important;
+}
+.footer-bottom {
+	background: #121212;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
