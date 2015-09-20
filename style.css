@@ -1,10 +1,13 @@
 body{
 	background-color: black;
+	
 }
 
 .navbar-brand{
 
 	font-family: arial;
+	width: inherit;
+
 }
 
 .intro-bg{
@@ -12,6 +15,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	height: 667px;
+	width: 100%;
 }
 .intro-txt{
 
@@ -89,9 +93,11 @@ body{
 }
 
 .contact-details{
-	margin: 50px 0px 0px 125px;
+	margin: 50px 0px 80px 140px;
 	font-family: Candara;
 	font-size: 25px;
+	text-wrap:supress;
+	word-wrap: break-word;
 
 }
 
@@ -103,13 +109,12 @@ body{
 	float: right;
 	margin: 50px ;
 	margin-top:40px ;
-	position: center;
+	position: relative;
 	
 }
 img{
 	width: 290px;
 	height: 290px;
-
 
 
 }
@@ -210,6 +215,7 @@ img{
 	border-top: 1px solid #DDDDDD;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	width: 100%;
 }
 .footer-bottom p.pull-left {
 	padding-top: 6px;
